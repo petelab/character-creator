@@ -7,12 +7,14 @@ body,
 body {
   background-color: hsl(180deg, 25%, 92%);
   margin: 0;
+  /*test*/
+  height: 100%;
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -29,4 +31,11 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+.perspective {
+  height: 40%;
+  width: 100%;
+
+  background-color: hsl(195deg, 20%, 86%);
 }
